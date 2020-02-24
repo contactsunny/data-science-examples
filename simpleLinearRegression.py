@@ -16,7 +16,7 @@ y = dataset.iloc[:, 1].values
 xTrain, xTest, yTrain, yTest = train_test_split(x, y, test_size = 1/3, random_state = 0)
 
 # Creating a LinearRegression object and fitting it
-# on our trainging set.
+# on our training set.
 linearRegressor = LinearRegression()
 linearRegressor.fit(xTrain, yTrain)
 
